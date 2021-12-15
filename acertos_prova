@@ -1,4 +1,4 @@
-# Verificação da quantidade de acertos de prova do tipo múltipla escolha.
+# Verificação da quantidade de acertos de prova do tipo múltipla escolha. Python 3
 
 # dados de entrada: número total de questões; respostas de cada questão; gabarito de cada questão
 # solução: realizar a comparação entre as respostas e o gabarito, adicionando um contador para cada acerto
