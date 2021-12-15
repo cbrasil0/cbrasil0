@@ -21,13 +21,15 @@ def convert_g(gabarito):
 lista_r = convert_r(respostas) #conversão respostas
 lista_g = convert_g(gabarito) #conversão gabarito
 
-contador = 0
+acertos = 0
 i = 0
 #verificando acertos por comparação entre as respostas e o gabarito
 for i in range(num_questoes):
     if lista_r[i] == lista_g[i]:
-        contador += 1
+        acertos += 1
     #else:
-        #contador-= 1 #para provas em que cada erro subtrai um ponto
+        #acertos-= 1 #para provas em que cada erro subtrai um ponto
 
-print("Você acertou ",contador," de um total de ",num_questoes," questões.",sep="")
+print("Você acertou ",acertos," de um total de ",num_questoes," questões.",sep="")
+aproveitamento = float(acertos/num_questoes) * 100
+print("Isto representa um total de ",f"{aproveitamento:.2f}","% de aproveitamento.", sep="")
