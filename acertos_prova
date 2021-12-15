@@ -3,6 +3,7 @@
 # dados de entrada: número total de questões; respostas de cada questão; gabarito de cada questão
 # solução: realizar a comparação entre as respostas e o gabarito, adicionando um contador para cada acerto
 # dados de saída: número total de acertos, percentual de acertos
+
 num_questoes = int(input("Número total de questões: ")) #entrada do número total de questões
 respostas = input("Respostas (separadas por um espaço ex. C A E B B...): ").split(" ") #entrada das respostas marcadas
 gabarito = input("Gabarito (ex. C A A A E...): ").split(" ") #entrada das respostas do gabarito
