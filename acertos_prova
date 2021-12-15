@@ -32,4 +32,4 @@ for i in range(num_questoes):
 
 print("Você acertou ",acertos," de um total de ",num_questoes," questões.",sep="")
 aproveitamento = float(acertos/num_questoes) * 100
-print("Isto representa um total de ",f"{aproveitamento:.2f}","% de aproveitamento.", sep="")
+print("Isso representa um total de ",f"{aproveitamento:.2f}","% de aproveitamento.", sep="")
