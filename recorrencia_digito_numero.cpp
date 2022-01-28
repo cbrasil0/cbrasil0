@@ -12,8 +12,8 @@ int recorrencia(int n, int k) {
         if (digito == k) { // condicional: dígito em n = k - primeiro caso de comparação positiva
             return 1 + recorrencia(n/10,k);// recursão à própria função
         }
-    return recorrencia(n/10,k); // função retorna o número de repetições de k em n
     }
+    return recorrencia(n/10,k); // função retorna o número de repetições de k em n
 }
 
 int main()
