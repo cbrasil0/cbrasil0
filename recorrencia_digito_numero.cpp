@@ -2,7 +2,6 @@
 
 // A função abaixo recebe o dígito k e o número n, os compara e encontra quantas vezes k se repete em n.
 int recorrencia(int n, int k) {
-    int x = 0; // contador de repetições
     if (n == 0) {
         return 0;
     }
