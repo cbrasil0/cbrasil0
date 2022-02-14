@@ -15,6 +15,8 @@ GABRIELY SILVA @GabrielyS
 KENNEDY SOARES @kndysoares
 YAGO CAMBINDA @YagoDSC
 
+Linguagem utilizada: C++ 17 (C/C++)
+
 *******************************************************************************/
 #include <iostream>
 #include <stdio.h>
