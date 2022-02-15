@@ -3,7 +3,8 @@ Objetivos do programa:
 
 - Abrir, ler e receber valores inteiros de um arquivo no formato .txt;
 - Formar uma estrutura de dados na forma de lista encadeada com os valores;
-- Formar uma estrutura de dados na forma de vetor com os valores presentes na lista encadeada, na mesma ordem;
+- Formar uma estrutura de dados na forma de vetor;
+- Executar a função para receber os valores presentes na lista encadeada, na mesma ordem, no vetor;
 - Executar dois algoritmos de ordenação com o vetor desordenado: um iterativo e um recursivo;
 - Marcar o tempo de execução de cada algoritmo de ordenação e comparar sua eficiência;
 - Informar os valores correspondentes, em cada função ordenativa, aos números mínimo, máximo e de mediana.
