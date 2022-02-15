@@ -18,7 +18,11 @@ YAGO CAMBINDA @YagoDSC
 
 Linguagem utilizada: C++ 17 (C/C++)
 
+Para verificar o output básico do programa sem ter um compilador, basta acessar o link abaixo e selecionar "Run":
+https://onlinegdb.com/R7d4bFx4A
+
 *******************************************************************************/
+
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
