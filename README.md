@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @cbrasil0!
-- 👀 I’m interested in programming...
-- 🌱 I’m currently learning Python, C/C++...
-- 💞️ I’m looking to collaborate on any projects I can help!
+- 👋 Hi, I’m @cbrasil0, aka Caio Brasil!
+- 👀 I’m interested in programming and developing softwares, applications or tools to make people's lives better and easier!
+- 🌱 I’m currently learning Python, C/C++ and any other languages, frameworks and applications that will add value to my career!
+- 💞️ I’m looking forward to collaborate on any projects I can help!
 - 📫 How to reach me: cbrasil.adv@gmail.com | https://www.linkedin.com/in/brasilcaio/
 
 <!---
