@@ -1,5 +1,5 @@
 PT-BR:
-- 👋 Olá, eu sou @cbrasil0, vulgo Caio Brasil!
+- 👋 Olá, eu sou @cbrasil0, também conhecido como Caio Brasil!
 - 👀 Possuo interesse em desenvolver soluções para fazer a vidas das pessoas melhor e mais fácil!
 - 🌱 Atualmente estou programando em Python e C++, mas também aprendendo outras linguagens, frameworks e aplicações que agreguem valor à minha carreira!
 - 💞️ Gostaria de colaborar em qualquer projeto em que eu possa ajudar!
