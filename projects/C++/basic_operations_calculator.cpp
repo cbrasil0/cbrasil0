@@ -9,6 +9,8 @@ Funcionar como uma calculadora e realizar uma das quatro operações básicas, �
 - Executar a operação dada com os dois números informados;
 - Escrever o resultado.
 
+Linguagem: C++ 17
+
 Welcome!
 Program goals:
 Work as a calculator and do one of the four basic operations, chosen by the user.
