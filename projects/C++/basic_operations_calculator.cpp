@@ -9,7 +9,7 @@ Funcionar como uma calculadora e realizar uma das quatro operações básicas, �
 - Escrever o resultado.
 - Refazer os passos anteriores ou terminar o programa.
 
-Welcome!
+Welcome to Caio's calculator! Language: C++ 17
 Program goals:
 Work as a calculator and do one of the four basic operations, chosen by the user.
 - Reading two numbers given by the user;
@@ -41,7 +41,7 @@ double divisao(double a, double b) { // função de divisão que recebe dois par
     printf("\nResultado da divisao: %.2lf\n",c); // escreve o valor de c com duas casas decimais
 }
 
-int secundary(double a, double b) // função principal do programa
+int secundaria(double a, double b) // função principal do programa
 {
         printf("\nSelecione a operação que deseja entre os números %.2lf e %.2lf.\nDigite 1 para SOMA\nDigite 2 para SUBTRAÇÃO\nDigite 3 para MULTIPLICAÇÃO\nDigite 4 para DIVISÃO\n",a,b); // escrevem mensagem com os valores de a e b
         int o; // definição do tipo da variável o
@@ -60,23 +60,23 @@ int secundary(double a, double b) // função principal do programa
         }
         else { // caso o valor da operação informado não corresponda às possibilidades do programa
             printf("Erro!\nO dígito não corresponde a uma das operações.\nDígito diferente de 1, 2, 3 e 4.\nFim do programa."); // escreve mensagem
-            return secundary(a,b); // retomada recursiva
+            return secundaria(a,b); // retomada recursiva
         }
 }
 int main()
 {
-    printf("Bem-vindo à calculadora de operações básicas do Caio!\n"); // escreve mensagem
+    printf("Bem-vindo(a) à calculadora de operações básicas do Caio!\n"); // escreve mensagem
     double a, b; // definição do tipo double pras variáveis a e b
     printf("\nInsira o valor do número A: "); // escreve mensagem
     scanf("%lf",&a); // lê o valor da variável a
     printf("Insira o valor do número B: "); // escreve mensagem
     scanf("%lf",&b); // lê o valor da variável b
     int continuar = 1;
-    while (continuar == 1) {
-        secundary(a,b);
+    while (continuar == 1) { // enquanto o valor da variavel continuar for 1
+        secundaria(a,b); // chama a função secundaria com os argumentos a e b
         printf("\nDigite 1 para realizar outra operação. Digite 2 para modificar os valores de A e B. Digite qualquer outro dígito para finalizar o programa.\n");
-        scanf("%d",&continuar);
-            if (continuar == 2) {
+        scanf("%d",&continuar); // opção do usuário de acordo com o dígito inserido
+            if (continuar == 2) { // condição de mudança dos valores dos números A e B
                 printf("\nInsira o valor do número A: "); // escreve mensagem
                 scanf("%lf",&a); // lê o valor da variável a
                 printf("Insira o valor do número B: "); // escreve mensagem
@@ -84,6 +84,6 @@ int main()
                 continuar = 1;
             }
     }
-    printf("\nFim do programa.");
+    printf("\nFim do programa."); // escreve mensagem
     return 0; // fim do programa
 }
